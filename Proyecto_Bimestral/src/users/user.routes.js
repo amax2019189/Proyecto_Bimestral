@@ -19,6 +19,7 @@ router.post(
         }),
         check("email", "This is not a valid email").isEmail(),
         check("email").custom(existsEmail),
+        check("role"),
         validateFields,
     ],
     usersPost
