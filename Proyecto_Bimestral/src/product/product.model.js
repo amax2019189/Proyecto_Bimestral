@@ -20,6 +20,18 @@ const ProductSchema = mongoose.Schema({
     state: {
         type: Boolean,
         default: true,
+    },
+    size: {
+
+    },
+    color: {
+
+    },
+    gender: {
+
+    },
+    amount: {
+        
     }
 });
 
