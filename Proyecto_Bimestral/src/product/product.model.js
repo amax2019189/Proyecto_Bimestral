@@ -13,7 +13,7 @@ const ProductSchema = mongoose.Schema({
         type: Number,
         require: [true, 'The price is mandatory'],
     },
-    existence: {
+    stock: {
         type: Number,
         require: [true, 'Existence is necessary'],
     },
@@ -22,11 +22,5 @@ const ProductSchema = mongoose.Schema({
         default: true,
     }
 });
-
-ProductSchema.methods.toJSON = function(){
-    const { _v, _id, ...product} = this.toObject(); //Aqui le quite el password por si da un error
-    product.uid = _id;
-    return product;
-}
 
 export default mongoose.model('Product', ProductSchema);
