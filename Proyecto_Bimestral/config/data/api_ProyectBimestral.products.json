@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "65eba73d103f52351e5890e0"
+  },
+  "name": "Pizza",
+  "description": "Pizza solo para calentar en microondas",
+  "price": 35,
+  "stock": 2,
+  "state": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65eba75f103f52351e5890e5"
+  },
+  "name": "Hamburguesa",
+  "description": "Panes para hamburguesas",
+  "price": 25,
+  "stock": 3,
+  "state": true,
+  "__v": 0
+}]

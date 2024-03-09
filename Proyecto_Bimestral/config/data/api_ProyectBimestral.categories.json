@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "65ea6c89d1652112f51f343d"
+  },
+  "name": "Alimentos",
+  "description": "Alimentos Perecederos",
+  "product": [
+    {
+      "$oid": "65eba75f103f52351e5890e5"
+    },
+    {
+      "$oid": "65ec003881f208a870f048eb"
+    }
+  ],
+  "state": true,
+  "__v": 13
+}]

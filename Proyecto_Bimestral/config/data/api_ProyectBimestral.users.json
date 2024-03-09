@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "65eb9abb0c904e07ea203503"
+  },
+  "name": "Susan Lopez",
+  "email": "slopez@kinal.edu.gt",
+  "password": "$2a$10$G3sj60bBhBzcHTZzy76XPe6T4prAWYr6fHNgUEN2KywTHe8Y2V/di",
+  "role": "CLIENT",
+  "state": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65eb9b470c904e07ea203509"
+  },
+  "name": "Alejandro Max",
+  "email": "amax@kinal.edu.gt",
+  "password": "$2a$10$GxpOKg5wfL1B.RabEZhikuHDmQEzq2EX6Hbm..f2i02uxSYzkCwP.",
+  "role": "ADMIN",
+  "state": true,
+  "__v": 0
+}]
