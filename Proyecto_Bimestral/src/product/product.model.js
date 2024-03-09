@@ -22,17 +22,21 @@ const ProductSchema = mongoose.Schema({
         default: true,
     },
     size: {
-
+        type: String,
+        require: [false, 'What size do you need?'],
     },
     color: {
-
+        type: String,
+        require: [false, 'What color do you need?'],
     },
     gender: {
-
+        type: String,
+        require: [false, 'What gender do you need?'],
     },
     amount: {
-        
-    }
+        type: Number,
+        require: [false, 'How much do you need'],
+    },
 });
 
 export default mongoose.model('Product', ProductSchema);

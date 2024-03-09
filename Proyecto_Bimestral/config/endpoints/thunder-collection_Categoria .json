@@ -1,0 +1,77 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Categoria ",
+    "dateExported": "2024-03-09T04:42:14.685Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f2c59ee2-5b61-4b51-8ace-102ffb83093a",
+            "colId": "4a920a6d-b5dc-4c1a-9b90-e34a1fb19c16",
+            "containerId": "",
+            "name": "categoryPost",
+            "url": "http://localhost:3000/bimonthlyProyectApi/v1/category",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-08T01:15:48.001Z",
+            "modified": "2024-03-09T00:04:01.592Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViOWI0NzBjOTA0ZTA3ZWEyMDM1MDkiLCJpYXQiOjE3MDk5NDA4ODYsImV4cCI6MTcxMjUzMjg4Nn0.BOMtmAd3pKMz1xCOgTtdPIAqzyuzX8KPVxRT98piQiA"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Mecanica\",\n  \"description\": \"Perecederos\"\n}",
+                "form": []
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "903cfd6b-d1a1-4b20-b5db-5343512fa1cc",
+            "colId": "4a920a6d-b5dc-4c1a-9b90-e34a1fb19c16",
+            "containerId": "",
+            "name": "categoryPut",
+            "url": "http://localhost:3000/bimonthlyProyectApi/v1/category/65ea70a5392046d8e6b7a7be",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-08T01:57:27.607Z",
+            "modified": "2024-03-08T01:59:32.227Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU2OWQ0MWMzYzBkZmFlOWI3NDMwNDUiLCJpYXQiOjE3MDk4NjIwMDAsImV4cCI6MTcxMjQ1NDAwMH0.QNdKInt8FGNjMEOxOsrEi6xEe-xIX8zd7YA5A89iHtI"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Mecanica\",\n  \"description\": \"Productos de autos\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "0ef2f1c7-6182-4dfa-bb24-3af8a60b7806",
+            "colId": "4a920a6d-b5dc-4c1a-9b90-e34a1fb19c16",
+            "containerId": "",
+            "name": "categoryDelete",
+            "url": "http://localhost:3000/bimonthlyProyectApi/v1/category/65ea70a5392046d8e6b7a7be",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-03-08T02:12:07.974Z",
+            "modified": "2024-03-08T02:12:43.120Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU2OWQ0MWMzYzBkZmFlOWI3NDMwNDUiLCJpYXQiOjE3MDk4NjIwMDAsImV4cCI6MTcxMjQ1NDAwMH0.QNdKInt8FGNjMEOxOsrEi6xEe-xIX8zd7YA5A89iHtI"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

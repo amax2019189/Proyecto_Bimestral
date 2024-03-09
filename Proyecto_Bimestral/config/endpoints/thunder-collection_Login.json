@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Login",
+    "dateExported": "2024-03-09T04:42:10.533Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "0a12d8ab-576c-4070-8407-c45f5cdb0500",
+            "colId": "e8cd2d2f-e639-4199-8197-2e1c17e26670",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:3000/bimonthlyProyectApi/v1/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-06T04:34:04.312Z",
+            "modified": "2024-03-06T04:37:27.268Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"amax@kinal.edu.gt\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

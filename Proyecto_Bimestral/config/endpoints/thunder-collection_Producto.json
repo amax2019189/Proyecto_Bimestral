@@ -1,0 +1,96 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Producto",
+    "dateExported": "2024-03-09T04:42:18.775Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "de9feae4-65e9-4ae4-b923-3b0f3ff987c6",
+            "colId": "382f6a3d-96b5-42db-ac2e-ab2b221a2349",
+            "containerId": "",
+            "name": "productPost",
+            "url": "http://localhost:3000/bimonthlyProyectApi/v1/product",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-08T23:07:19.975Z",
+            "modified": "2024-03-09T00:04:47.708Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViOWI0NzBjOTA0ZTA3ZWEyMDM1MDkiLCJpYXQiOjE3MDk5NDA4ODYsImV4cCI6MTcxMjUzMjg4Nn0.BOMtmAd3pKMz1xCOgTtdPIAqzyuzX8KPVxRT98piQiA"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Llantas\",\n  \"description\": \"Paquete de 4 llantas\",\n  \"price\": \"700\",\n  \"stock\": \"11\",\n  \"category\": \"Mecanica\"\n}",
+                "form": []
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "3d1a1a0a-4ead-4633-9ea5-db24eb182aa7",
+            "colId": "382f6a3d-96b5-42db-ac2e-ab2b221a2349",
+            "containerId": "",
+            "name": "productDelete",
+            "url": "http://localhost:3000/bimonthlyProyectApi/v1/product/65eba79f103f52351e5890ee",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2024-03-08T23:56:05.933Z",
+            "modified": "2024-03-09T00:07:38.759Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViOWI0NzBjOTA0ZTA3ZWEyMDM1MDkiLCJpYXQiOjE3MDk5NDA4ODYsImV4cCI6MTcxMjUzMjg4Nn0.BOMtmAd3pKMz1xCOgTtdPIAqzyuzX8KPVxRT98piQiA"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b06336e9-d114-434f-8a9d-1a4ef79b31a7",
+            "colId": "382f6a3d-96b5-42db-ac2e-ab2b221a2349",
+            "containerId": "",
+            "name": "productPut",
+            "url": "http://localhost:3000/bimonthlyProyectApi/v1/product/65eba73d103f52351e5890e0",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-03-09T00:09:41.426Z",
+            "modified": "2024-03-09T00:11:17.853Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViOWI0NzBjOTA0ZTA3ZWEyMDM1MDkiLCJpYXQiOjE3MDk5NDA4ODYsImV4cCI6MTcxMjUzMjg4Nn0.BOMtmAd3pKMz1xCOgTtdPIAqzyuzX8KPVxRT98piQiA"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Pizza\",\n  \"description\": \"Pizza solo para calentar en microondas\",\n  \"price\": \"35\",\n  \"stock\": \"2\",\n  \"category\": \"Alimentos\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a986db48-4a14-4ad9-ac12-ddde8a9f2e8b",
+            "colId": "382f6a3d-96b5-42db-ac2e-ab2b221a2349",
+            "containerId": "",
+            "name": "productGet",
+            "url": "http://localhost:3000/bimonthlyProyectApi/v1/product",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-03-09T04:35:20.290Z",
+            "modified": "2024-03-09T04:35:56.078Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViOWI0NzBjOTA0ZTA3ZWEyMDM1MDkiLCJpYXQiOjE3MDk5NDA4ODYsImV4cCI6MTcxMjUzMjg4Nn0.BOMtmAd3pKMz1xCOgTtdPIAqzyuzX8KPVxRT98piQiA"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
