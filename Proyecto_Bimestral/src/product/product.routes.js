@@ -6,6 +6,10 @@ import {
      productPut,
      productGet
 } from './product.controller.js';
+import { 
+    shoppingCartPost,
+    obtain
+ } from '../shoppingCart/shoppingCart.controller.js';
 import { validateFields } from "../middlewares/validate-fields.js";
 import { validarJWT } from "../middlewares/validar-jwt.js";
 
@@ -48,6 +52,28 @@ router.get(
         validateFields,
     ],
     productGet
+);
+
+router.post(
+    "/shoppingCart/:productId",
+    [
+        validarJWT,
+        validateFields,
+    ],
+    (req, res) => {
+        const {
+            productId
+        } = req.params;
+        const {
+            amount
+        } = req.body;
+
+        shoppingCartPost(productId, amount);
+
+        res.json({
+            shoppingCart: obtain()
+        });
+    }
 );
 
 export default router;
